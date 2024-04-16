@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 350px;
+  padding: 10px;
+}
+
+.labelName,
+.labelPhone {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.formInput {
+  display: flex;
+  margin-top: 10px;
+}
+
+.btnSubmit {
+  margin-top: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.btnSubmit:hover {
+  background: #CBCBCB;
+}
